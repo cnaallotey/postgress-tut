@@ -1,0 +1,15 @@
+{
+  "name": "postgres-tut",
+  "version": "1.0.0",
+  "description": "A tiny Node.js + PostgreSQL app for learning Postgres",
+  "type": "module",
+  "scripts": {
+    "setup": "node --env-file=.env src/setup.js",
+    "lessons": "node --env-file=.env src/lessons.js",
+    "start": "node --env-file=.env src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.13.1"
+  }
+}
